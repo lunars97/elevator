@@ -1,0 +1,62 @@
+.container{
+    max-width: 1368px;
+    margin: 0 auto;
+}
+
+.current-floor__block{
+    width: 100px;
+    background-color: black;
+    text-align: center;
+    color: red;
+    font-size: 36px;
+    position: absolute;
+    left: 383px;
+    top: 235px;
+    border: 6px groove #d1d3d2;
+}
+
+#current-floor__span{
+    transition: all 2s ease;
+}
+
+.building {
+    width: 350px;
+}
+
+.building img{
+    width: 100%;
+}
+
+
+.openElev img{
+    position: absolute;
+    top: 767px;
+    left: 161px;
+    transition: all 2s ease;
+    width: 50px;
+}
+
+.closeElev img{
+    position: absolute;
+    top: 767px;
+    left: 161px;
+    transition: all 2s ease;
+    width: 50px;
+    display: none;
+}
+
+.btns{
+    width: 84px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.floor-btn{
+    width: 40px;
+    padding: 0;
+}
+
+.floor-number{
+    width: 100%;
+}
